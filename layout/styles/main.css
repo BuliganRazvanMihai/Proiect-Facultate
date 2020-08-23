@@ -1,0 +1,276 @@
+/*
+Responsive Template Name: RS-1200 Prototype 4
+File: Main CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@import url(layout.css);
+@import url(pages.css);
+@import url(elements.css);
+@import url(framework.css);
+@import url(fonts/caviardreams/stylesheet.css);
+@import url(fonts/font-awesome/font-awesome.min.css);
+
+/* If you want to add your own css code, please do it in the custom.css file */
+@import url(custom.css);
+
+/* Remove this before using the template */
+
+@import url(demo-only.css);
+.sigla{
+    height:110px;
+    width: 110px;
+    float:right;
+}
+
+
+
+.contact {
+    position:inherit;
+}
+
+
+.tet {
+    width: 130px;
+    height: 85px;
+    float:left;
+}
+
+.mapa {
+    border-left: 50px;
+}
+
+.harta {
+    margin: 1% 0% 0% 5%;
+    
+}
+
+.susharta {
+    text-align: center;
+    
+}
+
+.telefon {
+    float:right;   
+}
+
+.sus {
+    background: linear-gradient(to top , #152038 1%,#3399ff 99%);
+}
+
+.navigation {
+    color: #000;
+}
+
+
+/*CALENDAR*/
+
+time.icon
+{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+
+time.icon span
+{
+  width: 100%;
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 40px;
+  color: #2f2f2f;
+}
+
+time.icon:hover, time.icon:focus
+{
+  -webkit-animation: swing 0.6s ease-out;
+  animation: swing 0.6s ease-out;
+}
+
+@-webkit-keyframes swing {
+  0%   { -webkit-transform: rotate(0deg)  skewY(0deg); }
+  20%  { -webkit-transform: rotate(12deg) skewY(4deg); }
+  60%  { -webkit-transform: rotate(-9deg) skewY(-3deg); }
+  80%  { -webkit-transform: rotate(6deg)  skewY(-2deg); }
+  100% { -webkit-transform: rotate(0deg)  skewY(0deg); }
+}
+
+@keyframes swing {
+  0%   { transform: rotate(0deg)  skewY(0deg); }
+  20%  { transform: rotate(12deg) skewY(4deg); }
+  60%  { transform: rotate(-9deg) skewY(-3deg); }
+  80%  { transform: rotate(6deg)  skewY(-2deg); }
+  100% { transform: rotate(0deg)  skewY(0deg); }
+}
+
+.text {
+    color:#fff;
+}
+
+.team-member {
+    width: 135px;
+    height:200px;
+}
+
+
+
+
+/* Tabel */
+
+.panel-title a {
+    display: block;
+}
+
+.nav-tabs>li>a {
+    font-weight: bold;
+}
+.panel-title>a {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.panel-title>a:hover {
+    background-color: #E0E0E0;
+}
+.panel-heading {
+    padding: 0;
+}
+.panel-body ul {
+    list-style-type: none;
+}
+.panel-body ul a {
+    cursor: pointer;
+    line-height: 28px;
+}
+.panel-body ul li {
+    border-bottom: 1px solid gray;
+}
+.mobile-100 {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+@media (min-width: 893px) {
+    .nav-tabs li {
+        width: 16.6665%;
+    }
+}
+@media (max-width: 500px) {
+    .nav-tabs li.active a {
+        border: 0px;
+        background-color: #ddd;
+    }
+    .nav-tabs li {
+        width: 33.3332%;
+        border: 1px solid #ddd;
+    }
+    .nav-tabs {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .nav-tabs li a {
+        margin-right: 0px;
+        border: 0px;
+        border-radius: 0;
+    }
+    .nav-tabs li.active a:hover,
+    .nav-tabs li.active a:focus {
+        border: 0px;
+        background-color: #ddd;
+    }
+}
+#up{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    
+}
+
+/* Slide */
+.slideshow-container {
+  max-width: inherit;
+  position: relative;
+  margin: none;
+}
+
+/* Text interior slide */
+.textcontainer {
+    text-shadow:
+        -2px -2px 10px #fff,
+        2px 2px 10px #fff,
+        0 0 20px #000,
+        0 0 40px #000,
+        0 0 60px #000,
+        0 0 80px #000,
+        0 0 100px #000;
+  color: #25379b;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Pe ecran mai mici redu scisul */
+@media only screen and (max-width: 300px) {
+  .textcontainer {font-size: 11px}
+}
